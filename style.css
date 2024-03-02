@@ -15,7 +15,7 @@ main{
     margin-bottom: 50px;
     margin-left: 80px;
 }
-.mensajeParaEncriptar{
+.mensajeParaEncriptarDesencriptar{
     border: none;
     color: #0A3871;
     margin-top: 90px;
@@ -24,10 +24,10 @@ main{
 ::placeholder{
     color:#0A3871;
 }
-.mensajeParaEncriptar:focus{
+.mensajeParaEncriptarDesencriptar:focus{
     outline: none;
 }
-.mensajeEncriptado{
+.mensajeEncriptadoDesencriptado{
     background: white;
     background-image: url(./img/Muñeco.png);
     background-repeat: no-repeat;

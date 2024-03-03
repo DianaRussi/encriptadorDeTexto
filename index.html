@@ -16,26 +16,24 @@
     <main>
         <section>
             <textarea class="mensajeParaEncriptarDesencriptar" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-            <textarea class="mensajeParaEncriptarDesencriptar" cols="30" rows="10"
-                placeholder="Ingrese el texto aqui"></textarea>
             <div>
                 <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
             </div>
             <div class="botones">
                 <button onclick="btnEncriptar()" class="encriptar propComunes">Encriptar</button>
-                <button class="desencriptar propComunes">Desencriptar</button>
                 <button onclick="btnDesencriptar()" class="desencriptar propComunes">Desencriptar</button>
             </div>
         </section>
         <section>
-            <textarea class="mensajeEncriptado" cols="30" rows="10"></textarea>
             <textarea class="mensajeEncriptadoDesencriptado" cols="30" rows="10"></textarea>
             <div>
-                <button class="copiar propComunes">Copiar</button>
+                <button onclick="copiar()" class="copiar propComunes">Copiar</button>
             </div>
+        </section>
     </main>
     <footer class="piePagina">
-        <p>&copy; 2024 <a href="https://dianarussi.github.io/encriptadorDeTexto/"> Diana Russi</a></p>
+        <p>&copy; 2024 Diana</p>
+        <p>Desarrollado por <a href="https://dianarussi.github.io/encriptadorDeTexto/">Diana Russi</a></p>
     </footer>
     <script src="./script.js"></script>
 </body>
